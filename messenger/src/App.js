@@ -1,14 +1,14 @@
 import React from 'react';
-import Kuroko from './Kuroko';
+import TopMenu from './Components/TopMenu/TopMenu';
+import Chat from './Components/Chat/Chat';
 
 
 function App() {
   // 
   return (
     <div className="App">
-      hi
-      <Aaa />
-      <Kuroko />
+      <TopMenu />
+      <Chat />
     </div>
   
   );
