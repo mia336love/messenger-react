@@ -1,0 +1,4 @@
+.App {
+  display: flex;
+  align-items: start; /* Optional: if you want both to start from the top */
+}
