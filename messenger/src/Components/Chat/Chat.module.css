@@ -130,3 +130,15 @@ p {
   margin-left: -82%;
   margin-top: 7%;
 }
+
+.voiceMessage img {
+  height: 14px;
+  width: 14px;
+}
+
+.voiceMessage {
+  display: flex;
+  align-items: center;
+  gap: 0.1px;
+  margin-top: -15%;
+}

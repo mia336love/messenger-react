@@ -46,7 +46,10 @@ const Chat = () =>{
                         </div>
 
                             <div className={styles.messageContainer}>
-                                <p className={styles.message}>Voice message (01:15) </p>
+                                <div className={styles.voiceMessage}>
+                                    <img src='https://img.icons8.com/?size=256&id=jkqQE2I90I8R&format=png' />
+                                    <p className={styles.message}>Voice message (01:15) </p>
+                                </div>
                                 <div className={styles.files}>
                                     <p className={styles.file}>Files (x2)</p>
                                     <p className={styles.photo}>Photo</p>
