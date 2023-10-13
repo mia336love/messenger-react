@@ -19,7 +19,7 @@ const Chat = () =>{
                         <div className={styles.messageHeader}>
                             <div>
                                 <p className={styles.name}>Luy Robin</p>
-                                <p className={styles.status}>writes</p>
+                                <p className={styles.status}>...writes</p>
                             </div>
                             <p className={styles.messageTime}>1 minute ago</p>
                         </div>
@@ -32,6 +32,33 @@ const Chat = () =>{
                             </div>
                         </div>
                     </div>
+
+
+                    <div className={styles.person}>
+                    <img src='https://i.pinimg.com/564x/3d/28/ca/3d28ca1c4d55b52a1eb9a2435eb6d211.jpg' alt='Luy Robin' />
+                        <div className={styles.userInfo}>
+                        <div className={styles.messageHeader}>
+                            <div>
+                                <p className={styles.name}>Jared Sunn</p>
+                                <p className={styles.status}>records voice message</p>
+                            </div>
+                            <p className={styles.messageTime}>1 minute ago</p>
+                        </div>
+
+                            <div className={styles.messageContainer}>
+                                <p className={styles.message}>Voice message (01:15) </p>
+                                <div className={styles.files}>
+                                    <p className={styles.file}>Files (x2)</p>
+                                    <p className={styles.photo}>Photo</p>
+                                </div>
+                                <span className={styles.indication}>1</span>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    
+
                 </div>
                 
 

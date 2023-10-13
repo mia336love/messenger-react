@@ -40,6 +40,7 @@ button {
   margin-top: 4%;
   padding: 10px;
   border-radius: 5px;
+  width: 600px;
 }
 
 .person img {
@@ -76,12 +77,18 @@ p {
   margin: 0; 
 }
 
+.status {
+  color: #2A8BF2;
+  ;
+}
 .messageTime {
   margin-left: 30%;
   align-self: flex-end;
 }
 
 .indication {
+  margin-top: 1%;
+  margin-right: 3.5%;
   width: 20px;
   height: 20px;
   display: flex;
@@ -98,4 +105,28 @@ p {
   justify-content: space-between; 
 }
 
+.files .file {
+  border-radius: 20px;
+  background-color: #2A8BF240;
+  height: 40px;
+  width: 110px;
+  justify-content: center;
+  color: #2A8BF2;
+}
 
+.files .photo {
+  border-radius: 20px;
+  background-color: #FF336640;
+  ;
+  height: 40px;
+  width: 110px;
+  justify-content: center;
+  color: #FF3366;
+  ;
+}
+
+.files {
+  display: flex;
+  margin-left: -82%;
+  margin-top: 7%;
+}
