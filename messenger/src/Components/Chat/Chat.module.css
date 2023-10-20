@@ -28,6 +28,13 @@ h1 {
 }
 
 .search {
+  /* background-image: url('https://img.icons8.com/?size=256&id=59878&format=png');
+  background-position-x: 25px;
+  background-position-y: center;
+  background-size: 25px 25px;
+  background-repeat: no-repeat;
+  background-color: #FFF; */
+
   width: 580px;
   height: 70px;
   flex-shrink: 0;
@@ -66,7 +73,7 @@ h1 {
 }
 
 
-button {
+#createChatBtn {
   position: absolute;
   /* top: 10%;
   bottom: 15%;
@@ -291,11 +298,11 @@ p {
 .files {
   display: flex;
   position: static;
-  margin-left: -80%;
+  /* margin-left: -80%; */
   margin-top: 7%;
 }
 
-.voiceMessage img {
+.voiceMessageIcon {
   width: 14px;
   height: 14px;
   flex-shrink: 0;
@@ -319,8 +326,8 @@ p {
 
 
 .fullMessage {
-  /* width: 580px;
-  height: 220px; */
+  width: 94.7%;
+  /* height: 220px; */
   flex-shrink: 0;
 
   border-radius: 6px;
