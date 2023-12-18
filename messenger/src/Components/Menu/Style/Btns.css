@@ -1,0 +1,61 @@
+.btnSwitch{
+    margin: 18%;
+    margin-left: 18%;
+    font-weight: 600;
+}
+
+.btnMenu{
+    /* color: rgb(32, 85, 182);
+    text-decoration: none; */
+    color: #707C97;
+    text-align: center;
+    
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    /* display: flex;
+    justify-content: space-between; */
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+svg {
+    position: relative;
+    top: 0.23em;
+}
+
+.active{
+    /* text-decoration: none;
+    color: rgb(40, 69, 112);
+    border-left: solid;
+    border-bottom: solid;
+    border-bottom-left-radius: 10px; */
+
+    width: 3px;
+    height: 40px;
+    flex-shrink: 0;
+
+    border-radius: 3px;
+    background: #2A8BF2;
+    box-shadow: 4px 0px 25px 0px rgba(42, 139, 242, 0.75), 0px 0px 10px 0px rgba(42, 139, 242, 0.55), 1px 0px 10px 0px rgba(42, 139, 242, 0.45);
+}
+
+#btn7 {
+    position: relative;
+    top: 20%;
+
+    color: #707C97;
+
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}

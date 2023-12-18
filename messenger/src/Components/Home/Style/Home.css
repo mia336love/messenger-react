@@ -1,0 +1,9 @@
+.homePage{
+    width: 85vw;
+}
+
+.main-home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

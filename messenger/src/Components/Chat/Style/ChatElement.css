@@ -1,0 +1,50 @@
+.allChats{
+    width: 50em;
+    height: 100em;
+
+    margin-left: 9%;
+}
+
+
+.interlocutor{
+    /* margin-top: 2vh;
+    width: 70vh;
+    height: 25vh;
+    background-color: white;
+    box-shadow: 2em 2em 3em rgb(177, 222, 230);
+    border-radius: 10px; */
+
+    width: 72%;
+    flex-shrink: 0;
+
+    /* box-shadow: 2em 2em 3em rgb(177, 222, 230); */
+
+    border-radius: 6px;
+    background: #DADADA;
+    box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.05), 0px 4px 10px 0px rgba(0, 0, 0, 0.25), 0px 10px 55px 0px rgba(0, 0, 0, 0.05);
+
+  
+    margin-left: -3%;
+    position: relative;
+}
+
+.chatWindow{
+    display: flex;
+}
+
+.messagesW{
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+    flex-direction: column;
+    align-items: center;
+    right: 25%;
+    top: 12%;
+    width: 20vw;
+    height: 100vh;
+}
+
+.interlocutorInf {
+    height: 15vh;
+}

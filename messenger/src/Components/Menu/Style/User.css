@@ -1,0 +1,15 @@
+.userImg{
+    margin-top: 20%;
+    margin-left: 0.5%;
+    width: 40%;
+    border-radius: 50%;
+}
+
+.userName{
+    margin-bottom: 40%;
+    margin-left: 0.4%;
+}
+
+.user {
+    text-align: center;
+}

@@ -1,0 +1,149 @@
+.main-home {
+    display: flex;
+    justify-content: center;
+}
+
+.post-home {
+    margin-top: 5vh;
+    width: 82%;
+    /* border: 2px solid;
+    border-color: rgb(192, 226, 226); */
+    padding: 1%;
+    border-radius: 6px;
+    background: #FFF;
+}
+
+.img-post-user {
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 4vw;
+    height: 8vh;
+}
+
+.img-post-user img {
+    width: 100%;
+    /* height: 100%; */
+    object-fit: cover;
+}
+
+.post-head {
+    display: flex;
+}
+
+.user-post-name {
+    margin-left: 1vw;
+    font-size: 1.3em;
+}
+
+.img-in-post {
+    width: 15vw; 
+    height: 35vh;
+    object-fit: cover;
+    padding-right: 1vw;
+}
+
+.images-post {
+    display: flex;
+    overflow: auto;
+}
+
+.hr-post {
+    margin-bottom: 2vh;
+    color: #707C97;
+}
+
+.footer-post {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    >button {
+        background-color: transparent;
+        border: 0px;
+    }
+}
+
+.likes-post {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: relative;
+    left: 90%;
+
+
+    >button {
+        background-color: transparent;
+        border: 0px;
+    }
+}
+
+.comment-head {
+    display: flex;
+}
+
+.comment-user-img {
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 3vw;
+    height: 6vh;
+}
+
+.comment-user-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.user-comment-name {
+    margin-left: 1vw;
+    font-size: 1.2em;
+}
+
+.add-com-btn-prof {
+    height: 4vh;
+    width: 10%;
+    background: linear-gradient(93deg, #7CB8F7 0%, #2A8BF2 100%);
+    box-shadow: 10px 6px 25px 0px rgba(42, 139, 242, 0.15), 4px 4px 25px 0px rgba(42, 139, 242, 0.05), 6px 6px 25px 0px rgba(42, 139, 242, 0.15);
+    border-style: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 1.1em;
+
+    position: relative;
+    left: 70%;
+    top: 1.6em;
+}
+
+.add-com-btn-prof:hover {
+    background: linear-gradient(50deg, rgb(117, 172, 231), rgb(40, 130, 226));
+}
+
+.comments-head-news{
+    display: flex;
+    position: relative;
+    left: 2%;
+}
+
+.user-comment-post{
+    position: relative;
+    left: 2%;
+    margin-bottom: 3vh;
+}
+
+.post-content {
+    position: relative;
+    left: 2%;
+}
+
+hr{
+    height: 1px;
+    background-color: #ccc;
+    border: none;
+}
+
+.post-text {
+    font-size: large;
+}

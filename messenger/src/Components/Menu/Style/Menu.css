@@ -1,0 +1,21 @@
+.allEl{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.menu {
+    width: 240px;
+    height: 1080px;
+    flex-shrink: 0;
+    background: #FFF;
+    box-shadow: 23.85965px 5.61404px 50px 0px rgba(0, 0, 0, 0.02), 35.08772px 0px 70px 0px rgba(86, 128, 248, 0.05), 14.03509px 0px 25px 0px rgba(86, 128, 248, 0.03);
+}
+/* 
+body{
+    width: 250px;
+    height: 1080px;
+    flex-shrink: 0;
+    background: #FFF;
+    box-shadow: 23.85965px 5.61404px 50px 0px rgba(0, 0, 0, 0.02), 35.08772px 0px 70px 0px rgba(86, 128, 248, 0.05), 14.03509px 0px 25px 0px rgba(86, 128, 248, 0.03);
+} */

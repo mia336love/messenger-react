@@ -1,0 +1,115 @@
+.chatHead{
+    margin-top: 8vh;
+    /* margin-left: 1em; */
+    display: block;
+    font-size: 18px;
+}
+
+.crChatBtn{
+    width: 15em;
+    height: 3.75em;
+    border-radius: 6px;
+    background: linear-gradient(93deg, #7CB8F7 0%, #2A8BF2 100%);
+    box-shadow: 10px 6px 25px 0px rgba(42, 139, 242, 0.15), 4px 4px 25px 0px rgba(42, 139, 242, 0.05), 6px 6px 25px 0px rgba(42, 139, 242, 0.15);
+    border-style: none;
+    color: white;
+    font-size: medium;
+    border-radius: 5px;
+
+    margin-top: 7vh;
+    margin-left: 10em;
+    position: relative;
+    bottom: 6em;
+    left: 15vh;
+}
+
+.searchChat{
+    /* position: absolute;
+    width: 65vh;
+    height: 4.5vh;
+    left: 15%;
+    border-radius: 10px;
+    border: none; */
+
+    /* width: 36.25em; */
+    width: 86%;
+
+    height: 4.375em;
+    flex-shrink: 0;
+    border-radius: 6px;
+    background: #FFF;
+    box-sizing: border-box;
+    border-style: none;
+  
+    position: relative;
+    /* left: -7em; */
+    /* bottom: -0.1em; */
+
+    color: #707C97;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    text-transform: capitalize;
+    /* border: black; */
+}
+
+.searchChatDiv{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: rgb(255, 255, 255);
+    box-shadow: -1vh -1vh 3vh rgb(226, 220, 220);
+    width: 69.5vh;
+    height: 5vh;
+    border-radius: 10px;
+    border: none; */
+
+    width: 71.6%;
+    height: 4.375em;
+    border-radius: 6px;
+    background: #FFF;
+    /* background: #be0000; */
+
+    box-sizing: border-box;
+    border-style: none;
+
+    position: relative;
+    left: -1.1em;
+    bottom: 1.3em;
+
+   
+    color: #707C97;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 144.444%;
+    text-transform: capitalize; 
+}
+
+.searchChatDiv svg {
+    position: relative;
+    left: 1.5em;
+    top: 1em;
+
+    width: 1.2em;
+    height: 1.2em;
+}
+
+.searchChat::placeholder{
+    color: #afb5bb;
+    font-size: large;
+    font-weight: 600;
+}
+
+.searchIco{
+    position: absolute;
+    bottom: 74%;
+    right: 85.5%;
+}
+
+.searchChat :active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}

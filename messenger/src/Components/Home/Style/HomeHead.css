@@ -1,0 +1,29 @@
+.header-home {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.header-home-news {
+	display: flex;
+	margin-left: 10em;
+}
+
+.header-home-btns {
+	display: flex;
+	justify-content: space-around;
+	width: 20%;
+}
+/* 
+.add-post-header-home {
+	background: linear-gradient(90deg, rgba(124,184,247,1) 50%, rgba(42,139,242,1) 100%);
+	border: 0px;
+	font-size: 1.3em;
+	font-weight: 700;
+	height: 4vh;
+	border-radius: 10px;
+} */
+
+.add-post-header-home {
+	background: linear-gradient(70deg, rgb(110, 164, 221), rgba(37, 120, 209));
+}
